@@ -47,6 +47,3 @@
   fill: var(--color-dark);
 }
 
-.header__button-basket:hover {
-  transform: scale(1.5);
-}

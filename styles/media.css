@@ -19,6 +19,10 @@
     flex-direction: column;
     row-gap: 40px;
   }
+
+  .sidebar-news {
+    max-width: unset;
+  }
 }
 
 @media (max-width: 1260px) {
@@ -27,6 +31,10 @@
   .acquaintance__decor .line-2,
   .acquaintance__decor .bottom-left-branch {
     display: none;
+  }
+
+  .products__wrapper {
+    padding-block: 40px;
   }
 }
 
@@ -75,6 +83,26 @@
   .acquaintance__decor .bee-2-doble,
   .acquaintance__decor .bee-3 {
     display: none;
+  }
+
+  .products__list {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .products__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products__quote {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .products__catalog {
+    margin-bottom: 70px;
   }
 }
 
