@@ -1,0 +1,44 @@
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 34px;
+}
+
+.header__navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 45px;
+}
+
+.header__navigation-link {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.66;
+  color: var(--color-header-item);
+}
+
+.header__navigation-link:hover {
+  color: var(--color-honey-yellow);
+}
+
+.header__button-group {
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+}
+
+.header__button-contact {
+  background-color: var(--color-honey-yellow);
+  color: var(--color-light);
+}
+
+.header__button-contact:hover {
+  background-color: var(--color-light);
+  color: var(--color-honey-yellow);
+}
+
+.header__button-basket:hover {
+  transform: scale(1.5);
+}

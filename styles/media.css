@@ -1,0 +1,134 @@
+/* @media (max-width: 1890px) {
+  .acquaintance__decor .line-1,
+  .acquaintance__decor .line-2 {
+    display: none;
+  }
+} */
+
+/* @media (max-width: 1750px) {
+  .acquaintance__decor .bottom-left-branch,
+  .acquaintance__decor .text,
+  .acquaintance__decor .bee-1,
+  .acquaintance__decor .bee-1-doble {
+    display: none;
+  }
+} */
+
+/* @media (max-width: 1300px) {
+  .acquaintance__decor .top-left-branch {
+    display: none;
+  }
+} */
+
+@media (max-width: 1890px) {
+  .acquaintance__decor .text {
+    right: 9vw;
+  }
+
+  .acquaintance__decor .top-left-branch {
+    top: 5vw;
+  }
+}
+
+@media (max-width: 1600px) {
+  .acquaintance__decor .text {
+    display: none;
+  }
+}
+
+@media (max-width: 1460px) {
+  .mission {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .acquaintance__decor .bee-1,
+  .acquaintance__decor .line-2,
+  .acquaintance__decor .bottom-left-branch {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__wrapper {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .header__navigation {
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .header__navigation-list {
+    justify-content: center;
+  }
+
+  .acquaintance__decor .top-left-branch,
+  .acquaintance__decor .line-1 {
+    display: none;
+  }
+
+  .acquaintance__title::after {
+    content: "";
+    background: url(../svg/acquaintance/bee-1.svg) center/contain no-repeat;
+    display: inline-block;
+    width: 44px;
+    height: 58px;
+  }
+}
+
+@media (max-width: 920px) {
+  .acquaintance__wrapper-text,
+  .acquaintance__wrapper-img {
+    padding-block: 80px;
+  }
+
+  .mission {
+    padding-block: 30px;
+  }
+
+  .acquaintance__decor .top-left-branch,
+  .acquaintance__decor .bottom-right-branch,
+  .acquaintance__decor .bee-2,
+  .acquaintance__decor .bee-3 {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .acquaintance__wrapper-img {
+    display: none;
+  }
+
+  .mission__video-play-button {
+    width: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__wrapper {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .header__navigation-list {
+    column-gap: 20px;
+  }
+
+  .mission__video-play-button {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__navigation-list {
+    column-gap: 10px;
+  }
+
+  .acquaintance__decor .bottom-right-branch {
+    display: none;
+  }
+}

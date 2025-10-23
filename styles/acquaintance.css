@@ -1,0 +1,125 @@
+.acquaintance {
+  position: relative;
+}
+
+.acquaintance__wrapper {
+  display: flex;
+}
+
+.acquaintance__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  position: static;
+  z-index: 2;
+  row-gap: 40px;
+  padding-block: 100px;
+  margin-right: clamp(50px, 7.29vw, 140px);
+}
+
+.acquaintance__wrapper-img {
+  padding-block: 100px;
+}
+
+.acquaintance__title {
+  font-size: clamp(80px, 7.08vw, 136px);
+  line-height: 0.83;
+  font-weight: 700;
+}
+
+.acquaintance__text {
+  font-size: clamp(14px, 0.93vw, 18px);
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 2.4px;
+}
+
+.acquaintance__subtitle {
+  max-width: 502px;
+}
+
+.acquaintance__button {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}
+
+.acquaintance__button:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+}
+
+.acquaintance__decor * {
+  position: absolute;
+}
+
+.acquaintance__decor svg {
+  /* Оптимизация производительности */
+  will-change: transform;
+  transform: translateZ(0);
+
+  /* Адаптивность */
+  max-width: 100%;
+  height: auto;
+
+  /* Для старых браузеров */
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+}
+
+.acquaintance__decor .bee-1 {
+  left: 5.21vw; 
+  top: 28.6vw; 
+  z-index: 2;
+}
+
+.acquaintance__decor .bee-2 {
+  left: 27.6vw; 
+  top: 5vw; 
+}
+
+.acquaintance__decor .bee-1-doble {
+  right: 44.3vw; 
+  top: 10.9vw; 
+  transform: scale(-1); 
+}
+
+.acquaintance__decor .bee-2-doble {
+  right: 20.8vw; 
+  top: 8.85vw; 
+}
+
+.acquaintance__decor .bee-3 {
+  right: 1.56vw; 
+  top: 8.33vw; 
+}
+
+.acquaintance__decor .bottom-left-branch {
+  left: 0;
+  bottom: 0;
+}
+
+.acquaintance__decor .top-left-branch {
+  left: 0;
+  top: 8vw;
+}
+
+.acquaintance__decor .bottom-right-branch {
+  right: 0;
+  bottom: 10.4vw; 
+}
+
+.acquaintance__decor .text {
+  right: 13vw;
+  top: 17vw; 
+}
+
+.acquaintance__decor .line-1 {
+  bottom: 0;
+  left: 23.44vw; 
+}
+
+.acquaintance__decor .line-2 {
+  right: 2.6vw; 
+  top: 10.4vw; 
+}
