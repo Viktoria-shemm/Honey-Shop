@@ -45,6 +45,7 @@
 
 @media (max-width: 1260px) {
   .acquaintance__decor .bee-1,
+  .acquaintance__decor .bee-1-doble,
   .acquaintance__decor .line-2,
   .acquaintance__decor .bottom-left-branch {
     display: none;
@@ -93,6 +94,7 @@
   .acquaintance__decor .top-left-branch,
   .acquaintance__decor .bottom-right-branch,
   .acquaintance__decor .bee-2,
+  .acquaintance__decor .bee-2-doble,
   .acquaintance__decor .bee-3 {
     display: none;
   }
