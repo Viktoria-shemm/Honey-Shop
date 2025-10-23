@@ -103,6 +103,10 @@
     display: none;
   }
 
+  .acquaintance__wrapper-text {
+    margin-right: 0;
+  }
+
   .mission__video-play-button {
     width: 80px;
   }

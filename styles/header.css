@@ -39,6 +39,14 @@
   color: var(--color-honey-yellow);
 }
 
+.header__button-basket {
+  background-color: transparent;
+}
+
+.header__button-basket #Vector {
+  fill: var(--color-dark);
+}
+
 .header__button-basket:hover {
   transform: scale(1.5);
 }
