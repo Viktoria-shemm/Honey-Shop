@@ -37,6 +37,10 @@
     width: 44px;
     height: 58px;
   }
+
+  .types-honey__card-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 920px) {
@@ -101,7 +105,8 @@
     gap: 20px;
   }
 
-  .gallery {
+  .gallery,
+  .types-honey {
     row-gap: 40px;
   }
 
@@ -126,6 +131,23 @@
 
   .subscribe__input {
     width: 200px;
+  }
+
+  .types-honey__card-item {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .types-honey__card-text {
+    margin-bottom: unset;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  .types-honey__card-description {
+    text-align: center;
   }
 }
 

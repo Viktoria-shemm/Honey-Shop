@@ -1,0 +1,40 @@
+.types-honey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 63px;
+}
+
+.types-honey__text {
+    text-align: center;
+}
+
+.types-honey__title {
+    margin-bottom: 20px;
+}
+
+.types-honey__card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.types-honey__card-item {
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: var(--color-light);
+}
+
+.types-honey__card-title {
+    margin-bottom: 5px;
+}
+
+.types-honey__card-button.button.transparent {
+    color: var(--color-accent);
+}
+
+.types-honey__card-button.button.transparent:hover {
+    color: var(--color-gray);
+}
