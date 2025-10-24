@@ -1,9 +1,6 @@
 .acquaintance {
-  position: relative;
-}
-
-.acquaintance__wrapper {
   display: flex;
+  padding-block: 50px;
 }
 
 .acquaintance__wrapper-text {
@@ -14,12 +11,7 @@
   position: static;
   z-index: 2;
   row-gap: 40px;
-  padding-block: 100px;
   margin-right: clamp(50px, 7.29vw, 140px);
-}
-
-.acquaintance__wrapper-img {
-  padding-block: 100px;
 }
 
 .acquaintance__title {
@@ -68,30 +60,30 @@
 }
 
 .acquaintance__decor .bee-1 {
-  left: 5.21vw; 
-  top: 28.6vw; 
+  left: 5.21vw;
+  top: 28.6vw;
   z-index: 2;
 }
 
 .acquaintance__decor .bee-2 {
-  left: 27.6vw; 
-  top: 5vw; 
+  left: 27.6vw;
+  top: 5vw;
 }
 
 .acquaintance__decor .bee-1-doble {
-  right: 44.3vw; 
-  top: 10.9vw; 
-  transform: scale(-1); 
+  right: 44.3vw;
+  top: 10.9vw;
+  transform: scale(-1);
 }
 
 .acquaintance__decor .bee-2-doble {
-  right: 20.8vw; 
-  top: 8.85vw; 
+  right: 20.8vw;
+  top: 8.85vw;
 }
 
 .acquaintance__decor .bee-3 {
-  right: 1.56vw; 
-  top: 8.33vw; 
+  right: 1.56vw;
+  top: 8.33vw;
 }
 
 .acquaintance__decor .bottom-left-branch {
@@ -106,20 +98,20 @@
 
 .acquaintance__decor .bottom-right-branch {
   right: 0;
-  bottom: 10.4vw; 
+  bottom: 10.4vw;
 }
 
 .acquaintance__decor .text {
   right: 13vw;
-  top: 17vw; 
+  top: 17vw;
 }
 
 .acquaintance__decor .line-1 {
   bottom: 0;
-  left: 23.44vw; 
+  left: 23.44vw;
 }
 
 .acquaintance__decor .line-2 {
-  right: 2.6vw; 
-  top: 10.4vw; 
+  right: 2.6vw;
+  top: 10.4vw;
 }
