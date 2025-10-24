@@ -1,6 +1,5 @@
 .acquaintance {
   display: flex;
-  padding-block: 50px;
 }
 
 .acquaintance__wrapper-text {
@@ -29,16 +28,6 @@
 
 .acquaintance__subtitle {
   max-width: 502px;
-}
-
-.acquaintance__button {
-  background-color: var(--color-accent);
-  color: var(--color-light);
-}
-
-.acquaintance__button:hover {
-  background-color: var(--color-light);
-  color: var(--color-accent);
 }
 
 .acquaintance__decor * {

@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   column-gap: 78px;
-  padding-block: 50px;
 }
 
 .mission__decor svg {
@@ -44,7 +43,7 @@
 }
 
 .mission__title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .mission__subtitle {

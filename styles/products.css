@@ -1,7 +1,3 @@
-.products {
-  padding-block: 50px;
-}
-
 .products__catalog {
   display: flex;
   flex-direction: column;

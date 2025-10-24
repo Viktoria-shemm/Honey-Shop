@@ -1,0 +1,24 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 63px;
+}
+
+.gallery__text {
+    text-align: center;
+}
+
+.gallery__title {
+    margin-bottom: 20px;
+}
+
+.gallery__subtitle {
+    max-width: 676px;
+}
+
+.gallery__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
